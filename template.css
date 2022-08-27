@@ -4,10 +4,10 @@
 
 
 .divGeneral {
-    width: 2500px;
+    
     margin: 15px auto;
     text-align: left;
-    border: 40px solid;
+    border: 40px outset;
 }
 
 
@@ -70,8 +70,8 @@
 	width: 360px; 
     margin-top: 0.1px;
     background-color: rgb(229, 10, 207);
-    border: 15px solid;
     font: bold 30px verdana, sans-serif;
+    border: 15px outset;
 }
 
 
@@ -80,7 +80,7 @@
     display: list-item;
     text-align: center;
     color: rgb(38, 39, 41);
-    margin-bottom: 350px;
+    margin-bottom: 250px;
     text-decoration: none;
 }
 
@@ -133,7 +133,7 @@ small{
     width: 750px;
     height: 350px;
     border-radius: 15%;
-
+    border: 5px outset;
 }
 
 .IMGT{
@@ -141,11 +141,11 @@ small{
     width: 400px;
     height: 300px;
     border-radius: 15%;
-
+    border: 5px outset;
 }
 
 .footer{
-    border: 40px solid;
+    border: 40px outset;
     padding: 50px;
     text-align: center; 
     font: bold 25px verdana, sans-serif;
