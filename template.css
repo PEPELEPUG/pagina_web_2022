@@ -7,7 +7,7 @@
     width: 2500px;
     margin: 15px auto;
     text-align: left;
-    border: 10px solid;
+    border: 40px solid;
 }
 
 
@@ -67,25 +67,26 @@
 .sidebar{
     margin-top: -40px;
 	float: right;
-	width: 290px; 
+	width: 360px; 
     margin-top: 0.1px;
     background-color: rgb(229, 10, 207);
-    border: 5px solid;
+    border: 15px solid;
     font: bold 30px verdana, sans-serif;
 }
 
 
 .sidebar a{
-    display: block;
+    font-size: 40px;
+    display: list-item;
     text-align: center;
-    color: rgb(193, 219, 27);
+    color: rgb(38, 39, 41);
     margin-bottom: 350px;
     text-decoration: none;
 }
 
 .section{
     flex: 70%;
-    background-color: rgb(61, 33, 201);
+    background-color: rgb(2, 2, 2);
     padding: 20px;
 
 }
@@ -95,7 +96,7 @@
 .footer{
     padding: 20px;
     text-align: right;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(196, 26, 185);
 }
 
 
@@ -144,7 +145,7 @@ small{
 }
 
 .footer{
-    border: 10px solid;
+    border: 40px solid;
     padding: 50px;
     text-align: center; 
     font: bold 25px verdana, sans-serif;
@@ -154,4 +155,13 @@ small{
 table{
     margin-left: 50px;
     margin-bottom: 2000px;
+}
+
+.PRR{
+    font-size: 40px;
+
+}
+.TTL{
+    font-size: 49px;
+
 }
