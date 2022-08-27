@@ -39,28 +39,25 @@
     flex-wrap: wrap;
 }
 
-.articulo1{
-    background-color:rgb(145, 33, 201);
+.articulosA{
+    background-color:rgb(255, 255, 255);
+    color: white;
     padding: 50px;
     text-align: center;
     font: bold 25px verdana, sans-serif;
 }
 
 
-.articulo2{
-    background-color:rgb(255, 107, 21);
+.articulosC{
+    background-color:rgb(228, 212, 202);
     padding: 50px;
     text-align: center; 
     font: bold 25px verdana, sans-serif;
 }
 
 
-.articulo3{
-    background-color:rgb(59, 235, 43);
-    padding: 50px;
-    text-align: center; 
-    font: bold 25px verdana, sans-serif;
-}
+
+
 
 
 
@@ -86,7 +83,7 @@
 
 .section{
     flex: 70%;
-    background-color: rgb(2, 2, 2);
+    background-color: rgb(255, 255, 255);
     padding: 20px;
 
 }
@@ -108,8 +105,8 @@ img {
 }
 
 .footerimg{
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     margin: auto;
     
 }
@@ -125,7 +122,7 @@ small{
     margin-right: 100px;
     width: 350px;
     height: 350px;
-    border-radius: 20%;
+
 
 }
 .IMGF{
