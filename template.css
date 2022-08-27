@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.divGeneral {
+    width: 2500px;
+    margin: 15px auto;
+    text-align: left;
+    border: 10px solid;
+}
+
+
+.cabecera{
+    padding: 50px;
+    background-color: rgb(238, 0, 139);
+    text-align: center;
+    font: bold 35px verdana, sans-serif;
+}
+
+.menu {
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(184, 19, 143);
+    
+
+}
+
+.menu a{
+    color: black;
+    padding: 15px 350px;
+    text-decoration: none; 
+    font: bold 35px verdana, sans-serif;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articulo1{
+    background-color:rgb(145, 33, 201);
+    padding: 50px;
+    text-align: center;
+    font: bold 25px verdana, sans-serif;
+}
+
+
+.articulo2{
+    background-color:rgb(255, 107, 21);
+    padding: 50px;
+    text-align: center; 
+    font: bold 25px verdana, sans-serif;
+}
+
+
+.articulo3{
+    background-color:rgb(59, 235, 43);
+    padding: 50px;
+    text-align: center; 
+    font: bold 25px verdana, sans-serif;
+}
+
+
+
+.sidebar{
+    margin-top: -40px;
+	float: right;
+	width: 290px; 
+    margin-top: 0.1px;
+    background-color: rgb(229, 10, 207);
+    border: 5px solid;
+    font: bold 30px verdana, sans-serif;
+}
+
+
+.sidebar a{
+    display: block;
+    text-align: center;
+    color: rgb(193, 219, 27);
+    margin-bottom: 350px;
+    text-decoration: none;
+}
+
+.section{
+    flex: 70%;
+    background-color: rgb(61, 33, 201);
+    padding: 20px;
+
+}
+
+
+
+.footer{
+    padding: 20px;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+}
+
+
+img {
+    margin-right: 1500px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.footerimg{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    
+}
+
+
+small{
+    text-align:right;
+    text-decoration: none;
+}
+
+
+.imgcabe{
+    margin-right: 100px;
+    width: 350px;
+    height: 350px;
+    border-radius: 20%;
+
+}
+.IMGF{
+    margin-right: 0px;
+    width: 750px;
+    height: 350px;
+    border-radius: 15%;
+
+}
+
+.IMGT{
+    margin-right: 0px;
+    width: 400px;
+    height: 300px;
+    border-radius: 15%;
+
+}
+
+.footer{
+    border: 10px solid;
+    padding: 50px;
+    text-align: center; 
+    font: bold 25px verdana, sans-serif;
+    margin-bottom: 30px;
+}
+
+table{
+    margin-left: 50px;
+    margin-bottom: 2000px;
+}
